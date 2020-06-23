@@ -1,5 +1,7 @@
 @import 'partials/reset';
 @import 'partials/variables';
-h1{
+h2{
     color: $main-color;
+    font-size: 40px;
+    margin:15px 0 15px 200px;
 }

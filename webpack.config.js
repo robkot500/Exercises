@@ -3,8 +3,9 @@ const autoprefixer = require('autoprefixer');
 const Html = require('html-webpack-plugin');
 const MiniCSS = require("mini-css-extract-plugin");
 
-const entryPath = "React1 state, functions as props- function";
-// 200612 Redux-1
+const entryPath = "React2 state,functions as props - class";
+// React1 state, functions as props- function
+// React2 state,functions as props - class
 module.exports = {
   entry: ["whatwg-fetch", `./${entryPath}/js/app.js`],
   output: {

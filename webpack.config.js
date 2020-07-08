@@ -3,9 +3,10 @@ const autoprefixer = require('autoprefixer');
 const Html = require('html-webpack-plugin');
 const MiniCSS = require("mini-css-extract-plugin");
 
-const entryPath = "React2 state,functions as props - class";
+const entryPath = "4";
 // React1 state, functions as props- function
-// React2 state,functions as props - class
+// React2 przekazywanie stanu i funkcji jako props- komponenty klasowe
+// React3 renderowanie innego komonentu w zależności od szerokości strony
 module.exports = {
   entry: ["whatwg-fetch", `./${entryPath}/js/app.js`],
   output: {
